@@ -1,0 +1,15 @@
+Ошибки
+Если во время выполнения ssh-add выдается следующее сообщение:
+
+$ ssh-add
+Could not open a connection to your authentication agent.
+Нужно выполнить следующее:
+
+$ exec ssh-agent bash
+Вместо bash можно указать используемую оболочку.
+
+Отличная статья по установке git
+http://kuroikaze85.wordpress.com/2009/12/16/git-on-windows/
+
+Команды с файлами и каталогами
+http://www.linuxcenter.ru/lib/books/kostromin/gl_04_06.phtml
